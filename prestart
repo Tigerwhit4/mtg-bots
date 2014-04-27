@@ -1,0 +1,13 @@
+#!/bin/bash -e
+
+## Setup
+THIS_DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+cd $THIS_DIR
+
+## Tell the user what's going on
+echo -n 'Ensuring dependencies are up-to-date...'
+
+## Get dependencies up-to-date
+npm install
+
+echo 'done'
