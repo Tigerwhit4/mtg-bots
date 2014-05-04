@@ -1,14 +1,17 @@
 {
     "name": "mtg-web-client",
     "version": "0.0.1",
+    "main": "server.js",
     "dependencies": {
-        "express":              "4.1.0",
-        "morgan":               "1.0.0",
-        "requirejs":            "2.1.8",
-        "requirejs-middleware": "0.1.2"
+        "express":         "~4.1.0",
+        "morgan":          "~1.0.0",
+        "body-parser":     "~1.0.0",
+        "method-override": "~1.0.0",
+        "errorhandler":    "~1.0.0",
+        "jade":            ">=0.0.1"
     },
     "scripts": {
         "prestart": "./prestart",
-        "start":    "node app.js"
+        "start":    "node server.js"
     }
 }
