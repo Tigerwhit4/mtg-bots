@@ -50,7 +50,7 @@ app.get('/partials/:name', routes.partials);
 
 /* --- API ROUTES --- */
 
-app.get('/api/actions', api.actionHistory);
+app.get('/api/actions', api.actions);
 app.get('/api/actions/:id', api.action);
 
 /* --- DEFAULT ROUTES --- */

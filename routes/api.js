@@ -36,8 +36,8 @@ var data = {
 
 // GET
 
-exports.actionHistory = function (req, res) {
-    var posts = [];
+exports.actions = function (req, res) {
+    var actions = [];
 
     // TODO: allow client to specify that only id's are needed
     data.actions.forEach(function (action, i) {
