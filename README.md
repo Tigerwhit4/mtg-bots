@@ -12,11 +12,14 @@ Supplemental Articles
 upgrading from express 3 to 4:
     http://scotch.io/bar-talk/expressjs-4-0-new-features-and-upgrading-from-3-0
 
-handlebars:
-    http://handlebarsjs.com/
-
-requirejs-middleware package:
-    https://www.npmjs.org/package/requirejs-middleware
+angular-js:
+    https://angularjs.org/
+    
+angular-js example app:
+    https://github.com/btford/angular-express-blog
 
 machine learning and node:
     http://blog.bigml.com/2013/06/27/binding-machine-learning-and-node-js/
+
+magic: the gathering comprehensive rules:
+    http://www.wizards.com/magic/comprules/MagicCompRules090201.pdf
