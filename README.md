@@ -22,4 +22,4 @@ machine learning and node:
     http://blog.bigml.com/2013/06/27/binding-machine-learning-and-node-js/
 
 magic: the gathering comprehensive rules:
-    http://www.wizards.com/magic/comprules/MagicCompRules090201.pdf
+    http://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140501.pdf
