@@ -7,19 +7,7 @@ To run
 ======
     $ npm start
 
-Supplemental Articles
-=====================
-upgrading from express 3 to 4:
-    http://scotch.io/bar-talk/expressjs-4-0-new-features-and-upgrading-from-3-0
+Design and Documentation
+========================
 
-angular-js:
-    https://angularjs.org/
-    
-angular-js example app:
-    https://github.com/btford/angular-express-blog
-
-machine learning and node:
-    http://blog.bigml.com/2013/06/27/binding-machine-learning-and-node-js/
-
-magic: the gathering comprehensive rules:
-    http://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140501.pdf
+All of the design work and documentation helpful to humans can be found on the [wiki](https://github.com/ryan-self/mtg-web-client/wiki). I am spending most of the early stage of the project in the wiki, fleshing out the game architecture, data collection mechanism, and user experience. Many months will be spent in design, because I only spend about 6-10 hours a week on this project, maximum, due to my current work-life schedule. However, I am making steady progress each week :)
