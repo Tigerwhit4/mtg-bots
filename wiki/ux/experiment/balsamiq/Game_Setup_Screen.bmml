@@ -1,0 +1,107 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="922" measuredH="411" mockupW="889" mockupH="385">
+  <controls>
+    <control controlID="9" controlTypeID="__group__" x="33" y="26" w="889" h="385" measuredW="889" measuredH="385" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="17" controlTypeID="com.balsamiq.mockups::Arrow" x="369" y="142" w="157" h="10" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="9">
+          <controlProperties>
+            <leftArrow>false</leftArrow>
+            <rightArrow>true</rightArrow>
+            <stroke>solid</stroke>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="369" y="114" w="-1" h="-1" measuredW="159" measuredH="21" zOrder="2" locked="false" isInGroup="9">
+          <controlProperties>
+            <text>Switch%20to%20%22Teach%20the%20bots%21%22</text>
+          </controlProperties>
+        </control>
+        <control controlID="24" controlTypeID="__group__" x="0" y="0" w="330" h="385" measuredW="330" measuredH="385" zOrder="0" locked="false" isInGroup="9">
+          <controlProperties>
+            <controlName>Game_Setup_Default_Panel</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="330" h="385" measuredW="330" measuredH="385" zOrder="0" locked="false" isInGroup="24">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="330" h="385" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0"/>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="11" y="18" w="304" h="343" measuredW="304" measuredH="343" zOrder="1" locked="false" isInGroup="24">
+              <controlProperties>
+                <override controlID="0" x="0" y="0" w="304" h="92"/>
+                <override controlID="1" x="0" y="100" w="210" h="22"/>
+                <override controlID="2" x="0" y="303" w="203" h="25">
+                  <state>disabled</state>
+                  <text>%20Play%20with%20another%20player</text>
+                </override>
+                <override controlID="3" x="0" y="238" w="139" h="25"/>
+                <override controlID="4" x="26" y="127" w="272" h="22"/>
+                <override controlID="5" x="26" y="163" w="32" h="21"/>
+                <override controlID="6" x="26" y="149" w="264" h="10"/>
+                <override controlID="10" x="26" y="263" w="271" h="32"/>
+                <override controlID="11" x="26" y="328" w="88" h="15">
+                  <state>disabled</state>
+                </override>
+                <override controlID="7" x="83" y="161" w="206" h="24"/>
+                <override controlID="8" x="26" y="194" w="37" h="21"/>
+                <override controlID="9" x="83" y="192" w="206" h="24"/>
+                <override controlID="0:4" x="0" y="82" w="304" h="10"/>
+                <override controlID="0:2" x="0" y="36" w="304" h="10"/>
+                <override controlID="0:1" x="73" y="53" w="214" h="24"/>
+                <override controlID="-1"/>
+                <override controlID="0:3" x="19" y="55" w="40" h="21"/>
+                <override controlID="0:0" x="19" y="0" w="269" h="27"/>
+                <src>./assets/symbols.bmml#Starting Screen</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="26" controlTypeID="__group__" x="559" y="0" w="330" h="385" measuredW="330" measuredH="385" zOrder="3" locked="false" isInGroup="9">
+          <controlProperties>
+            <controlName>Game_Setup_Default_Panel</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="330" h="385" measuredW="330" measuredH="385" zOrder="0" locked="false" isInGroup="26">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="330" h="385" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0"/>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="11" y="18" w="304" h="334" measuredW="304" measuredH="334" zOrder="1" locked="false" isInGroup="26">
+              <controlProperties>
+                <override controlID="0" x="0" y="0" w="304" h="92"/>
+                <override controlID="1" x="0" y="100" w="210" h="22">
+                  <state>up</state>
+                </override>
+                <override controlID="2" x="0" y="294" w="203" h="25">
+                  <state>disabled</state>
+                  <text>%20Play%20with%20another%20player</text>
+                </override>
+                <override controlID="3" x="0" y="149" w="139" h="25">
+                  <state>selected</state>
+                </override>
+                <override controlID="4" x="26" y="127" w="272" h="22"/>
+                <override controlID="5" x="26" y="223" w="32" h="21"/>
+                <override controlID="6" x="26" y="211" w="264" h="10"/>
+                <override controlID="7" x="96" y="221" w="206" h="24"/>
+                <override controlID="8" x="26" y="258" w="37" h="21"/>
+                <override controlID="9" x="96" y="256" w="206" h="24"/>
+                <override controlID="10" x="26" y="179" w="271" h="32">
+                  <text>Show%20the%20bots%20how%20you%20would%20make%20decisions%20in%20a%20special%20solataire%20training%20mode.</text>
+                </override>
+                <override controlID="11" x="26" y="319" w="88" h="15">
+                  <state>disabled</state>
+                </override>
+                <override controlID="0:4" x="0" y="82" w="304" h="10"/>
+                <override controlID="0:2" x="0" y="36" w="304" h="10"/>
+                <override controlID="0:3" x="19" y="55" w="40" h="21"/>
+                <override controlID="-1"/>
+                <override controlID="0:1" x="73" y="53" w="214" h="24"/>
+                <override controlID="0:0" x="19" y="0" w="269" h="27"/>
+                <src>./assets/symbols.bmml#Starting Screen</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
