@@ -10,4 +10,18 @@ echo -n 'Ensuring dependencies are up-to-date...'
 ## Get dependencies up-to-date
 npm install
 
+## Build and deploy app
+BUILD_DIR=$THIS_DIR/build
+PUBLIC_DIR=$BUILD_DIR/public
+WEBAPP_SRC_DIR=$THIS_DIR/webapp
+echo -n 'Building and deploying app...'
+mkdir -p $PUBLIC_DIR
+cd $WEBAPP_SRC_DIR
+
+# NOTE: the below is not robust, since it is not using print0 or xargs -0...
+#       but this is a prototype... :)
+find . -name "*.js" -print | grep "^./vendor" | xargs cat > $PUBLIC_DIR/vendor.js
+find . -name "config.js" -print | grep -v "^./vendor" | xargs cat > $PUBLIC_DIR/app.js
+find . -name "*.js" -print | grep -v "^./vendor" | grep -v "config\.js" | xargs cat >> $PUBLIC_DIR/app.js
+
 echo 'done'

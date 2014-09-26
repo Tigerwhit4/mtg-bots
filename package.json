@@ -1,5 +1,5 @@
 {
-    "name": "mtg-web-client",
+    "name": "mtg-bots",
     "version": "0.0.1",
     "main": "server.js",
     "dependencies": {
@@ -12,6 +12,6 @@
     },
     "scripts": {
         "prestart": "./prestart",
-        "start":    "node server.js"
+        "start":    "cd webserver && node server.js"
     }
 }

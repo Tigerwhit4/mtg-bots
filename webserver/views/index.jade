@@ -1,0 +1,12 @@
+extends layout
+
+block body
+    div(ng-controller="BoardController")
+        div(ng-repeat="perm in board.battlefield")
+            {{perm.name}}: {{perm.power}}/{{perm.toughness}}
+            br
+        div(ng-view)
+    
+    script(src='vendor.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js')
+    script(src='app.js')
